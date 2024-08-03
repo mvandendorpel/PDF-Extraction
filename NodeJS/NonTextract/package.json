@@ -1,0 +1,16 @@
+{
+  "dependencies": {
+    "@pomgui/pdf-tables-parser": "^0.1.0",
+    "convert-array-to-csv": "^2.0.0",
+    "fs": "^0.0.1-security"
+  },
+  "name": "nontextract",
+  "version": "1.0.0",
+  "main": "pdfextract.mjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
