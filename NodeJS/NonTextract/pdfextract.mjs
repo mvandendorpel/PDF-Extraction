@@ -1,10 +1,13 @@
 import fs from 'fs';
 import { PdfDocument } from '@pomgui/pdf-tables-parser';
 import { convertArrayToCSV } from 'convert-array-to-csv';
-const CORPAY_TEST_FILE = '240628_MTMReport1_Stmt-1.pdf';
+const CORPAY_TEST_FILE = '240531_MTMReport1_Stmt-1.pdf';
 const CORPAY_TEST_FILE_2 = '220930_MTMReport1_Stmt.pdf';
 const ALPHA_TEST_FILE = 'Monthly Trades - 202405-1.pdf';
 const SCOTIA_TEST_FILE = 'FXO_MTM_VSFI_20220926.pdf'
+
+
+//This is likely not a viable solution.  There is too much handling for each individual file, it's likely to get worse as more samples are tested.
 
 const processCorpayPDF = async (pdfPages) => {
     console.log('Processing Corpay PDF');
